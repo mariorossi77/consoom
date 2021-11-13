@@ -9,7 +9,7 @@ sxiv
 `$ consoom {subreddit}`  
 you can set the default one with `$BOARD` by editing the source
 
-### dark theme
+### sxiv dark theme
 either edit the source (window.c):  
 `122 bg = win_res(db, RES_CLASS ".background", "black");`  
 or set it in .Xresources
