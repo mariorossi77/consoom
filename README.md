@@ -6,6 +6,6 @@ wget
 sxiv
 
 ### usage
-```$ consoom {subreddit}```
+```$ consoom {subreddit}```  
 make sure to compile sxiv with:  
 ```122 bg = win_res(db, RES_CLASS ".background", "black");```
