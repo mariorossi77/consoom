@@ -1,11 +1,11 @@
 # consoom
 consoom plebbit a sxiv $1 at a time
 
-# deps
+### deps
 wget  
 sxiv
 
-# usage
+### usage
 ```
 $ consoom {subreddit}
 ```
