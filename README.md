@@ -2,7 +2,7 @@
 consoom plebbit a sxiv $1 at a time
 
 # deps
-wget
+wget  
 sxiv
 
 # usage
