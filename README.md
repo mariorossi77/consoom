@@ -9,8 +9,8 @@ sxiv
 `$ consoom {subreddit}`  
 you can set the default one with `$BOARD` by editing the source
 
-### pixelblitter
-`$ pixelblitter-consoom {subreddit}`  
+### sixel
+`$ consoom-sixel {subreddit}`  
 you must use a capable terminal emulator e.g. kitty
 
 ### sxiv dark theme
