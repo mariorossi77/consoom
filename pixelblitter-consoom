@@ -12,5 +12,5 @@ for i in $IMAGES; do
 	[[ -z $image ]] || [[ "$image" == "external-pr" ]] && continue
 	wget -q "${URL}/img/${image}" -O "${OUT}${image}"
 	clear && viu "${OUT}${image}"
-	read -p "press any key to consoom"
+	read -p "press enter to consoom"
 done
