@@ -1,5 +1,5 @@
 # consoom
-consoom plebbit a sxiv $1 at a time
+the fastest way to consoom plebbit
 
 ### deps
 wget  
@@ -8,6 +8,10 @@ sxiv
 ### usage
 `$ consoom {subreddit}`  
 you can set the default one with `$BOARD` by editing the source
+
+### pixelblitter
+`$ pixelblitter-consoom {subreddit}`
+you must use a capable terminal emulator e.g. kitty
 
 ### sxiv dark theme
 either edit the source (window.c):  
