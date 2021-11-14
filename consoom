@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo -e "loading...\nCtrl+C to quit"
-
 OUT="/dev/shm/"
 URL="https://libredd.it"
 BOARD="r/${1:-greentext}"
