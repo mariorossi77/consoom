@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+echo -e "loading...\nCtrl+C to quit"
+
+OUT="/dev/shm/"
+URL="http://libredd.it"
+BOARD="r/${1:-greentext}"
+IMAGES=$(curl -s "${URL}/${BOARD}" | grep "<image" | cut -d"/" -f3)
+
+[[ -z $IMAGES ]] && { echo "$BOARD not found"; exit 1; } 
+
+for i in $IMAGES; do
+	image=${i::-1}
+	[[ -z $image ]] || [[ "$image" == "external-pr" ]] && continue
+	wget -q "${URL}/img/${image}" -O "${OUT}${image}"
+	viu "${OUT}${image}"
+	read -p "press any key to consoom"
+done
