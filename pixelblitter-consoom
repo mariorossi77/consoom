@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 OUT="/dev/shm/"
-URL="http://libredd.it"
+URL="https://libredd.it"
 BOARD="r/${1:-greentext}"
 IMAGES=$(curl -s "${URL}/${BOARD}" | grep "<image" | cut -d"/" -f3)
 
