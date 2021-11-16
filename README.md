@@ -11,7 +11,7 @@ you can set the default one with `$BOARD` by editing the source
 
 ### sixel
 `$ consoom-sixel {subreddit}`  
-you must use a capable terminal emulator e.g. kitty
+you must use a capable terminal emulator e.g. st (sixel branch)
 
 ### sxiv dark theme
 either edit the source (window.c):  
