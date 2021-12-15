@@ -1,5 +1,9 @@
 # consoom
 the fastest way to consoom plebbit
+edit:  
+i just realized there is already a similar tool  
+https://github.com/Bugswriter/redyt  
+nice to see you can use json instead of html
 
 ### deps
 wget  
